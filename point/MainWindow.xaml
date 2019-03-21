@@ -16,7 +16,7 @@
         <Button Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Label x:Name="lbl1" Content="0" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbl2" Content="Label" HorizontalAlignment="Left" Margin="310.132,4,0,0" VerticalAlignment="Top" Width="37" FontStyle="Italic" Grid.Column="2"/>
-        <Slider x:Name="timer_slide" HorizontalAlignment="Left" Margin="319.132,30,0,0" VerticalAlignment="Top" Width="23" ValueChanged="Slider_ValueChanged" Maximum="500" SmallChange="0" Orientation="Vertical" Height="380" Grid.Column="2" Value="500" TickFrequency="0"/>
+        <Slider x:Name="timer_slide" HorizontalAlignment="Left" Margin="319.132,30,0,0" VerticalAlignment="Top" Width="23" Maximum="500" SmallChange="0" Orientation="Vertical" Height="380" Grid.Column="2" Value="500" TickFrequency="0"/>
         <TextBox x:Name="grid_label" HorizontalAlignment="Left" Height="23" Margin="10,59,0,0" TextWrapping="Wrap" Text="30" VerticalAlignment="Top" Width="69"/>
         <TextBox x:Name="Sheet_point" HorizontalAlignment="Left" Height="23" Margin="10,87,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="69"/>
 

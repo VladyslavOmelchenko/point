@@ -21,7 +21,7 @@ namespace point
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public class point_f
+    public class Point_f
     {
         // переменные
         public double F;
@@ -168,13 +168,7 @@ namespace point
             lbl2.Content = Convert.ToInt16(timer_slide.Value);
         }
 
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            
-           // lbl2.Content = Convert.ToInt16(timer_slide.Value);
-         
-            //Timer1.Start();
-        }
+        
         int time = 0;
         int qwer = 0;
         void start(double V_round, double F_round, double I_round, int step) {
